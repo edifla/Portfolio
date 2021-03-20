@@ -226,7 +226,10 @@
   }
   
   .itens {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	max-width: 400px;
   }
   
@@ -235,13 +238,13 @@
 	align-items: center;
 	text-decoration: none;
 	border-radius: 30px;
-	margin: 10px;
 	color: white;
+	margin: 5px;
   }
   
   .projetos .itens img {
 	border-radius: 10px;
-	width: 200px;
+	width: 250px;
 	cursor: pointer;
   }
   
@@ -425,6 +428,9 @@
 	  height: 350px;
 	  font-size: 12px;
 	  margin: 20px auto;
+	}
+	.card:last-child{
+		margin-bottom: 50px;
 	}
 	.interesses {
 	  display: flex;
