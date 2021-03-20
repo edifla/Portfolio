@@ -460,11 +460,16 @@
 	.input-group{
 		height: 100vh;
 		width: 100vw;
+		
 	}
-	.input-group img{
+	.input-group-img{
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		height: 100%;
+		width: 100%;
+	}
+	.input-group img{
 		width: 400px;
 		object-fit: cover;
 	}
