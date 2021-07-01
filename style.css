@@ -123,7 +123,7 @@
   }
   
   .card {
-	width: 300px;
+	width: 350px;
 	height: 450px;
 	margin: 40px auto;
 	border-radius: 10px;
@@ -137,21 +137,19 @@
 	padding: 20px 30px
   }
   
-  .habilidades p {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-  
   .interesses {
 	display: flex;
 	align-items: center;
 	justify-content: center;
   }
-  
+  .habilidades{
+	  display: grid;
+	  grid-template-columns: 65px 65px 65px;
+	  justify-content: center;
+	}
   .habilidades a img {
-	width: 40px
-  }
+	width: 50px;
+}
   
   .card h2 {
 	text-align: center;
@@ -427,7 +425,8 @@
 	  width: 250px;
 	  height: 350px;
 	  font-size: 12px;
-	  margin: 20px auto;
+	  margin: 20px auto;	  
+	  text-align: center;
 	}
 	.card:last-child{
 		margin-bottom: 50px;
@@ -438,7 +437,7 @@
 	  justify-content: center;
 	}
 	.habilidades a img {
-	  width: 25px
+	  width: 30px;
 	}
 	.card h2 {
 	  text-align: center;
